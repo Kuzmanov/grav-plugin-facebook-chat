@@ -33,14 +33,17 @@ form:
       type: colorpicker
       label: PLUGIN_FACEBOOK_CHAT.THEME_COLOR
       help: PLUGIN_FACEBOOK_CHAT.THEME_COLOR
+      default: '#3B5998'
     logged_in_greeting:
       type: text
       label: PLUGIN_FACEBOOK_CHAT.LOGGED_IN_GREETING
       help: PLUGIN_FACEBOOK_CHAT.LOGGED_IN_GREETING_HELP
+      default: 'Hi there, how can I help you?'
     logged_out_greeting:
       type: text
       label: PLUGIN_FACEBOOK_CHAT.LOGGED_OUT_GREETING
       help: PLUGIN_FACEBOOK_CHAT.LOGGED_OUT_GREETING_HELP
+      default: 'Hi there, how can I help you?'
     greeting_dialog_display:
       type: select
       label: PLUGIN_FACEBOOK_CHAT.GREETING_DIALOG_DISPLAY
@@ -55,11 +58,4 @@ form:
       type: text
       label: PLUGIN_FACEBOOK_CHAT.GREETING_DIALOG_DELAY
       help: PLUGIN_FACEBOOK_CHAT.GREETING_DIALOG_DELAY_HELP
-    language:
-      type: text
-      label: PLUGIN_FACEBOOK_CHAT.LANGUAGE
-      help: PLUGIN_FACEBOOK_CHAT.LANGUAGE_HELP
-    ref:
-      type: text
-      label: PLUGIN_FACEBOOK_CHAT.REF
-      help: PLUGIN_FACEBOOK_CHAT.REF_HELP
+      default: 4

@@ -12,7 +12,3 @@ en:
     GREETING_DIALOG_DISPLAY_HELP: Sets how the greeting dialog will be displayed. 
     GREETING_DIALOG_DELAY: Greeting Dialog Delay
     GREETING_DIALOG_DELAY_HELP: Sets the number of seconds of delay before the greeting dialog is shown after the plugin is loaded
-    LANGUAGE: Language
-    LANGUAGE_HELP:
-    REF: Ref
-    REF_HELP: ou may pass an optional ref parameter if you wish to include additional context to be passed back in the webhook event. This can be used for many purposes, such as tracking which page the user started the conversation on, directing the user to specific content or features available within the bot, or tying a Messenger user to a session or account on the website.

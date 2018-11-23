@@ -1,0 +1,18 @@
+en:
+  PLUGIN_FACEBOOK_CHAT:
+    FACEBOOK_PAGE_ID: Facebook Page ID
+    FACEBOOK_PAGE_ID_HELP: Facebook Page ID to connect the Messenger with
+    THEME_COLOR:  Theme Color
+    THEME_COLOR_HELP: The color to use as a theme for the plugin, including the background color of the customer chat plugin icon and the background color of any messages sent by users.
+    LOGGED_IN_GREETING: Logged In Greeting
+    LOGGED_IN_GREETING_HELP: The greeting text that will be displayed if the user is currently logged in to Facebook. Maximum 80 characters.
+    LOGGED_OUT_GREETING: Logged Out Greeting
+    LOGGED_OUT_GREETING_HELP: The greeting text that will be displayed if the user is currently not logged in to Facebook. Maximum 80 characters.
+    GREETING_DIALOG_DISPLAY: Greeting Dialog Display
+    GREETING_DIALOG_DISPLAY_HELP: Sets how the greeting dialog will be displayed. 
+    GREETING_DIALOG_DELAY: Greeting Dialog Delay
+    GREETING_DIALOG_DELAY_HELP: Sets the number of seconds of delay before the greeting dialog is shown after the plugin is loaded
+    LANGUAGE: Language
+    LANGUAGE_HELP:
+    REF: Ref
+    REF_HELP: ou may pass an optional ref parameter if you wish to include additional context to be passed back in the webhook event. This can be used for many purposes, such as tracking which page the user started the conversation on, directing the user to specific content or features available within the bot, or tying a Messenger user to a session or account on the website.

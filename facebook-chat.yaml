@@ -1,0 +1,9 @@
+enabled: true
+facebook_page_id:
+theme_color: '#3B5998'
+logged_in_greeting: 'Hi there, how can I help you?'
+logged_out_greeting: 'Hi there, how can I help you?'
+greeting_dialog_display: true
+greeting_dialog_delay: 4
+language: 'en_US'
+ref:

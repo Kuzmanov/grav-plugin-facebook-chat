@@ -1,0 +1,65 @@
+name: Facebook Chat (Customer Chat Plugin)
+version: 1.0.0
+description: "**Facebook Chat (Customer Chat Plugin)** is plugin that allows you to integrate the Facebook Messenger experience directly into your website."
+icon: facebook
+author:
+  name: Boris Kuzmanov
+  email: boriskuzmanov2@gmail.com
+  url: http://github.com/Kuzmanov
+homepage: https://github.com/Kuzmanov/grav-plugin-facebook-chat
+demo:
+keywords: plugin, facebook, chat, social media, social, facebook chat, customer chat, customer chat plugin
+bugs: https://github.com/Kuzmanov/grav-plugin-facebook-chat/issues
+license: MIT
+
+form:
+  validation: strict
+  fields:
+    enabled:
+      type: toggle
+      label: PLUGIN_ADMIN.PLUGIN_STATUS
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        2: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+    facebook_page_id:
+      type: text
+      label: PLUGIN_FACEBOOK_CHAT.FACEBOOK_PAGE_ID
+      help: PLUGIN_FACEBOOK_CHAT.FACEBOOK_PAGE_ID_HELP
+    theme_color:
+      type: colorpicker
+      label: PLUGIN_FACEBOOK_CHAT.THEME_COLOR
+      help: PLUGIN_FACEBOOK_CHAT.THEME_COLOR
+    logged_in_greeting:
+      type: text
+      label: PLUGIN_FACEBOOK_CHAT.LOGGED_IN_GREETING
+      help: PLUGIN_FACEBOOK_CHAT.LOGGED_IN_GREETING_HELP
+    logged_out_greeting:
+      type: text
+      label: PLUGIN_FACEBOOK_CHAT.LOGGED_OUT_GREETING
+      help: PLUGIN_FACEBOOK_CHAT.LOGGED_OUT_GREETING_HELP
+    greeting_dialog_display:
+      type: select
+      label: PLUGIN_FACEBOOK_CHAT.GREETING_DIALOG_DISPLAY
+      help: PLUGIN_FACEBOOK_CHAT.GREETING_DIALOG_DISPLAY_HELP
+      highlight: show
+      default: show
+      options:
+        show: Show
+        hide: Hide
+        fade: Fade
+    greeting_dialog_delay:
+      type: text
+      label: PLUGIN_FACEBOOK_CHAT.GREETING_DIALOG_DELAY
+      help: PLUGIN_FACEBOOK_CHAT.GREETING_DIALOG_DELAY_HELP
+    language:
+      type: text
+      label: PLUGIN_FACEBOOK_CHAT.LANGUAGE
+      help: PLUGIN_FACEBOOK_CHAT.LANGUAGE_HELP
+    ref:
+      type: text
+      label: PLUGIN_FACEBOOK_CHAT.REF
+      help: PLUGIN_FACEBOOK_CHAT.REF_HELP

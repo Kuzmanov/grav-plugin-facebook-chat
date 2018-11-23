@@ -39,10 +39,7 @@ The customer chat plugin supports the following customizations. All customizatio
 | theme_color | The color to use as a theme for the plugin, including the background color of the customer chat plugin icon and the background color of any messages sent by users. Supports any hexadecimal color code with a leading number sign (e.g. #0084FF), except white. We highly recommend you choose a color that has a high contrast to white. |
 | logged_in_greeting | The greeting text that will be displayed if the user is currently logged in to Facebook. Maximum 80 characters. |
 | logged_out_greeting | The greeting text that will be displayed if the user is currently not logged in to Facebook. Maximum 80 characters. |
-| greeting_dialog_display | Sets how the greeting dialog will be displayed. The following values are supported: 
-* `show` - The greeting dialog is shown and remains open on desktop and mobile after the number of seconds set by the greeting_dialog_delay attribute.
-* `hide` - The greeting dialog is hidden until a user clicks on the plugin on desktop and mobile. 
-* `fade` - fade: The greeting dialog is shown briefly after the number of seconds set by the greeting_dialog_delay attribute, then fades away and is hidden on desktop. The dialog is hidden on mobile. |
+| greeting_dialog_display | Sets how the greeting dialog will be displayed. The following values are supported: `show` - The greeting dialog is shown and remains open on desktop and mobile after the number of seconds set by the greeting_dialog_delay attribute. `hide` - The greeting dialog is hidden until a user clicks on the plugin on desktop and mobile. `fade` - fade: The greeting dialog is shown briefly after the number of seconds set by the greeting_dialog_delay attribute, then fades away and is hidden on desktop. The dialog is hidden on mobile. |
 | greeting_dialog_delay | Sets the number of seconds of delay before the greeting dialog is shown after the plugin is loaded. This can be used to customize when you want the greeting dialog to appear. |
 
 ## Usage
